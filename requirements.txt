@@ -6,3 +6,8 @@ flask
 matplotlib
 wordcloud
 tqdm
+tensorflow
+torch
+seaborn
+gensim
+xgboost
