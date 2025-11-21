@@ -37,23 +37,37 @@ Simple UI where users can paste news text and get predictions instantly.
 AI-Powered-Fake-News-Detection-System/
 │
 ├── app.py
-├── model/
-│ ├── tfidf_vectorizer.joblib
-│ ├── svd_300.joblib
-│ └── TFIDF_MLP.joblib
-├── templates/
-│ └── index.html
+│
 ├── app/
-│ └── style.css
+│   ├── static/
+│   │   └── style.css
+│   └── templates/
+│       └── index.html
+│
+├── model/
+│   ├── tfidf_vectorizer.joblib
+│   ├── svd_300.joblib
+│   ├── TFIDF_MLP.joblib
+│   ├── W2V_LogReg.joblib
+│   ├── W2V_LinearSVC.joblib
+│   ├── W2V_MLP.joblib
+│   └── W2V_RandomForest.joblib
+│
 ├── data/
-│ ├── raw/
-│ └── processed/
+│   ├── raw/
+│   │   ├── Fake.csv
+│   │   └── True.csv
+│   └── processed/
+│       └── cleaned_data.csv
+│
 ├── notebooks/
-│ ├── 01_data_preprocessing.ipynb
-│ └── 02_model_training.ipynb
+│   ├── 01_data_preprocessing.ipynb
+│   └── 02_model_training.ipynb
+│
+├── utils/
+│
 ├── requirements.txt
 └── README.md
-
 
 ---
 
