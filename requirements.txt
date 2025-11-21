@@ -11,3 +11,5 @@ torch
 seaborn
 gensim
 flask
+joblib
+gunicorn
