@@ -34,13 +34,15 @@ Simple UI where users can paste news text and get predictions instantly.
 
 ## Project Structure
 
+## 📁 Project Structure
+
+```txt
 AI-Powered-Fake-News-Detection-System/
 │
 ├── app.py
 │
 ├── app/
-│   ├── static/
-│   │   └── style.css
+│   |──── style.css
 │   └── templates/
 │       └── index.html
 │
@@ -68,6 +70,7 @@ AI-Powered-Fake-News-Detection-System/
 │
 ├── requirements.txt
 └── README.md
+```
 
 ---
 
